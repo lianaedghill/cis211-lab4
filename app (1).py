@@ -1,4 +1,4 @@
-# L9 - Your first Streamlit page: Liana's Sweet & Warm Bakery
+# L9 - Your first Streamlit page: Liana's Beauty Supply
 # CIS 211 | Week 6 teaching module
 # This bakery, its menu, and its opening hours are fictional class examples.
 # Read this file alongside the Week 6 handout. It is a Python script, not a notebook.
@@ -10,22 +10,22 @@ import streamlit as st
 # 2. Reuse Python data structures from L6 and L7.
 #    A list holds several items. A dictionary connects each key to a value.
 highlights = [
-    "Small batches throughout the day",
-    "A menu with clearly displayed prices",
-    "A convenient stop for an afternoon treat",
+    "Fresh warm baked good everyday",
+    "A smell that can get your attention from miles away",
+    "A place to wine down and treat yourself to something sweet",
 ]
 
 menu = {
-    "cupcake": 3.75,
+    "Coffee cake": 3.75,
     "cookie": 1.00,
-    "muffin": 2.75,
-    "scone": 3.25,
+    "croissant": 2.75,
+    "cinnamon Roll": 3.25,
     "brownie": 3.00,
 }
 
 shop_info = {
     "hours": "Monday-Friday, 9:00 a.m.-5:00 p.m. (fictional example)",
-    "featured_item": "cupcake",
+    "featured_item": "Coffee cake",
 }
 
 # 3. A function can RETURN text to the code that calls it (L5).
@@ -36,22 +36,22 @@ def format_price(amount):
 
 # 4. These calls DISPLAY content on the page, from top to bottom.
 #    The title is the page's main heading. A caption adds a short supporting note.
-st.title("Bright Bakery")
+st.title("Liana's Sweet & Warm Bakery")
 st.caption("A fictional bakery information page created for CIS 211.")
 
-st.header("About our bakery")
-st.write("Welcome to Bright Bakery, a small neighborhood bakery in our class example.")
+st.header("Seek Peak on the goods")
+st.write("Come on down to Liana's Sweet & Warm Bakery, one of the best bakery's in our class example.")
 
 # 5. Markdown goes INSIDE a Python string when passed to st.markdown().
 #    Triple quotes allow the string to span several lines. Blank lines separate blocks.
 #    The ** marks make text bold; the * marks make text italic.
 st.markdown("""
-We believe in **simple choices** and *a welcoming atmosphere*.
+At Liana's we believe in the **goodness** of *every bite*!
 
-This page shares our example menu and opening hours.
+This page gives you a glimpes of our menu and opening hours.
 """)
 
-st.subheader("What you can expect")
+st.subheader("A taste of what's to come")
 
 # 6. The loop visits each value in the LIST. Each call displays one bullet.
 #    st.write() understands Markdown when it receives a string.
@@ -59,7 +59,7 @@ for highlight in highlights:
     st.write(f"- {highlight}")
 
 st.header("Menu")
-st.caption("All prices below are fictional examples in U.S. dollars.")
+st.caption("All prices below are made up prices in U.S. dollars.")
 
 # 7. .items() supplies each key and value from the DICTIONARY (L7).
 #    format_price() returns text; st.write() displays that text on the page.
