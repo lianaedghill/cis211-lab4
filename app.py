@@ -18,7 +18,7 @@ highlights = [
 
 menu = {
     "Coffee cake": 3.75,
-    "cookie": 1.00,
+    "cookie": 1.50,
     "croissant": 2.75,
     "cinnamon Roll": 3.25,
     "brownie": 3.00,
