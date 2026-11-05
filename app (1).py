@@ -1,4 +1,4 @@
-# L9 - Your first Streamlit page: Bright Bakery
+# L9 - Your first Streamlit page: Lee's Sugar Rush Bakery
 # CIS 211 | Week 6 teaching module
 # This bakery, its menu, and its opening hours are fictional class examples.
 # Read this file alongside the Week 6 handout. It is a Python script, not a notebook.
