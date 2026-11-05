@@ -13,6 +13,7 @@ highlights = [
     "Fresh warm baked good everyday",
     "A smell that can get your attention from miles away",
     "A place to wine down and treat yourself to something sweet",
+    "Delicious homemade treats baked with love",
 ]
 
 menu = {
