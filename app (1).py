@@ -17,14 +17,14 @@ highlights = [
 
 menu = {
     "cupcake": 3.75,
-    "cookie": 2.00,
+    "cookie": 1.00,
     "muffin": 2.75,
     "scone": 3.25,
     "brownie": 3.00,
 }
 
 shop_info = {
-    "hours": "Monday-Friday, 9:00 a.m.-4:00 p.m. (fictional example)",
+    "hours": "Monday-Friday, 9:00 a.m.-5:00 p.m. (fictional example)",
     "featured_item": "cupcake",
 }
 
